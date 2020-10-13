@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    grid-area: h;
+    background: linear-gradient(to right, dodgerblue, lightskyblue);
+    border-bottom: var(--border);
+}
+.titleBlock {
+    max-width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleBlock > h1 {
+}
+.titleBlock > img {
+    width:  50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.filler {
+    width: 100%;
+}
+.loginBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    min-width: 100px;
+}
+
+.loginBlock:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background: deepskyblue;
+}
+
+@media (max-width:270px) {
+    .titleBlock > h1 {
+        display: none;
+    }
+}

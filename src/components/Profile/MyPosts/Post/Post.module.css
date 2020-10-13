@@ -1,0 +1,12 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: black;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}

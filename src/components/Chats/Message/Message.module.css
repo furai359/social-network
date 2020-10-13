@@ -1,0 +1,16 @@
+div {
+
+}
+.message {
+    width: max-content;
+    background: lightskyblue;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.incoming {
+    margin: 0 auto 0 0;
+}
+
+.outgoing {
+    margin: 0 5px 0 70%;
+}

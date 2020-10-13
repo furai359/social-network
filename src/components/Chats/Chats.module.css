@@ -1,0 +1,42 @@
+.wrap {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 10fr 2fr;
+    grid-template-areas:
+            'c m'
+            'c s';
+    width:  100%;
+    height: 100%;
+}
+
+.chatsList {
+    grid-area: c;
+    border-right: 1px solid #e5e5e5;
+}
+
+.messages {
+    grid-area: m;
+    display: block;
+    padding: 5px 10px;
+}
+
+
+.active {
+    background: linear-gradient(to right, lightblue, lightsteelblue);
+    color: lightcyan;
+}
+
+.sendWrap {
+    display: flex;
+    grid-area: s;
+}
+
+.textarea {
+    resize: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.send {
+
+}

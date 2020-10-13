@@ -1,0 +1,31 @@
+.title {
+    padding: 10px;
+}
+.newPost {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    max-width: 600px;
+}
+.newPost > textarea {
+    width: 100%;
+}
+.newPost > button {
+    transition: all 0.3s;
+    background: royalblue;
+    height: 55px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.newPost > button:hover {
+    background: deepskyblue;
+    box-shadow: 0 0 20px deepskyblue;
+}
+
+.posts_wrap {
+    padding: 10px;
+}

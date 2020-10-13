@@ -1,0 +1,38 @@
+.userWrap {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 5fr;
+    margin: 20px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.avatar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width:  150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.follow {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.follow > button {
+    height: 50%;
+    width: 100%;
+}
+.fullName {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 15px;
+}
+
+.status {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 0 20px;
+}
+
